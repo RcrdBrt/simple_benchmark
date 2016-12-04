@@ -9,6 +9,6 @@ In order to calculate the time I'm using `std::chrono::high_resolution_clock` fr
 This program has been tested successfully on a Raspberry Pi (g++ version 4.9.2) and on a X86_64 Intel CPU (g++ version 5.4.0) without modifications.
 
 ### usage
-`make standard` compiles the code *without* OpenMP support.
-`make mp` compiles the code *with* OpenMP support.
-`./main` launches the benchmark.
+- `make standard` compiles the code *without* OpenMP support.
+- `make mp` compiles the code *with* OpenMP support.
+- `./main` launches the benchmark.
