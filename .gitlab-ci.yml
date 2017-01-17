@@ -1,0 +1,21 @@
+job1:
+        before-script: 
+                - make clean
+        script: 
+                - make standard
+        stages:
+                - build
+                - test
+        tags:
+                - sequential
+
+job2:
+        before-script: 
+                - make clean
+        script: 
+                - make mp
+        stages:
+                - build
+                - test
+        tags:
+                - openMP
