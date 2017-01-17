@@ -2,12 +2,8 @@ job1:
         script:
                 - make clean
                 - make standard
-        tags:
-                - sequential
 
 job2:
         script: 
                 - make clean
                 - make mp
-        tags:
-                - openMP
