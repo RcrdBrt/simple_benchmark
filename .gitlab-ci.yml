@@ -2,9 +2,6 @@ job1:
         script:
                 - make clean
                 - make standard
-        stages:
-                - build
-                - test
         tags:
                 - sequential
 
@@ -12,8 +9,5 @@ job2:
         script: 
                 - make clean
                 - make mp
-        stages:
-                - build
-                - test
         tags:
                 - openMP
