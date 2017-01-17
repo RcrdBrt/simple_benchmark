@@ -1,9 +1,7 @@
 job1:
         script:
-                - make clean
                 - make standard
 
 job2:
         script: 
-                - make clean
                 - make mp
