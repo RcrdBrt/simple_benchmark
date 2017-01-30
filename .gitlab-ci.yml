@@ -1,7 +1,0 @@
-job1:
-        script:
-                - make standard
-
-job2:
-        script: 
-                - make mp
